@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jmatharu.jagdeep.assign12.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/portrait"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:onClick="secondActivity()"
+        android:text="@string/firstbutt" />
+
+    <ImageView
+        android:id="@+id/imgview2"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="220dp" />
+
+    <ImageView
+        android:id="@+id/imgview1"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="220dp" />
+
+</RelativeLayout>

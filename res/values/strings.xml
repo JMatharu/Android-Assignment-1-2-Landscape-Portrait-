@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Jagdeep.Assign12</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Jagdeep Matharu</string>
+      <string name="landscape">This is Landscape Activity</string>
+         <string name="portrait">This is Portrait Activity</string>
+    <string name="firstbutt">Click Button to see Images!</string>
+
+</resources>
